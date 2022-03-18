@@ -1,0 +1,103 @@
+"","bioguide_id","chamber","state_name","state_abbrev","party","name","nominate_dim1","nominate_dim2"
+"1","T000278","Senate","Alabama","AL","Republican","Tuberville, Thomas Hawley (Tommy)",0.936,-0.352
+"2","S000320","Senate","Alabama","AL","Republican","Shelby, Richard C.",0.446,0.572
+"3","M001153","Senate","Alaska","AK","Republican","Murkowski, Lisa",0.211,-0.304
+"4","S001198","Senate","Alaska","AK","Republican","Sullivan, Daniel Scott",0.476,0.071
+"5","S001191","Senate","Arizona","AZ","Democrat","Sinema, Kyrsten",-0.104,0.07
+"6","K000377","Senate","Arizona","AZ","Democrat","Kelly, Mark Edward",-0.188,0.441
+"7","B001236","Senate","Arkansas","AR","Republican","Boozman, John",0.421,0.298
+"8","C001095","Senate","Arkansas","AR","Republican","Cotton, Tom",0.615,0.093
+"9","H001075","Senate","California","CA","Democrat","Harris, Kamala Devi",-0.709,-0.105
+"10","P000145","Senate","California","CA","Democrat","Padilla, Alejandro (Alex)",-0.412,-0.441
+"11","F000062","Senate","California","CA","Democrat","Feinstein, Dianne",-0.268,-0.183
+"12","B001267","Senate","Colorado","CO","Democrat","Bennet, Michael F.",-0.229,-0.177
+"13","H000273","Senate","Colorado","CO","Democrat","Hickenlooper, John Wright",-0.241,0.013
+"14","M001169","Senate","Connecticut","CT","Democrat","Murphy, Christopher",-0.27,-0.194
+"15","B001277","Senate","Connecticut","CT","Democrat","Blumenthal, Richard",-0.437,-0.166
+"16","C000174","Senate","Delaware","DE","Democrat","Carper, Thomas Richard",-0.177,-0.222
+"17","C001088","Senate","Delaware","DE","Democrat","Coons, Christopher A.",-0.23,-0.214
+"18","R000595","Senate","Florida","FL","Republican","Rubio, Marco",0.599,-0.228
+"19","S001217","Senate","Florida","FL","Republican","Scott, Richard Lynn (Rick)",0.666,0.075
+"20","L000594","Senate","Georgia","GA","Republican","Loeffler, Kelly",0.555,-0.203
+"21","O000174","Senate","Georgia","GA","Democrat","Ossoff, Thomas Jonathan (Jon)",-0.455,0.464
+"22","W000790","Senate","Georgia","GA","Democrat","Warnock, Raphael Gamaliel",-0.386,0.44
+"23","H001042","Senate","Hawaii","HI","Democrat","Hirono, Mazie",-0.512,-0.084
+"24","S001194","Senate","Hawaii","HI","Democrat","Schatz, Brian Emanuel",-0.446,-0.098
+"25","C000880","Senate","Idaho","ID","Republican","Crapo, Michael Dean",0.499,0.282
+"26","R000584","Senate","Idaho","ID","Republican","Risch, James",0.565,0.448
+"27","D000563","Senate","Illinois","IL","Democrat","Durbin, Richard Joseph",-0.348,-0.305
+"28","D000622","Senate","Illinois","IL","Democrat","Duckworth, Tammy",-0.335,0.102
+"29","Y000064","Senate","Indiana","IN","Republican","Young, Todd",0.461,-0.021
+"30","B001310","Senate","Indiana","IN","Republican","Braun, Michael",0.8,0.6
+"31","G000386","Senate","Iowa","IA","Republican","Grassley, Charles Ernest",0.351,-0.062
+"32","E000295","Senate","Iowa","IA","Republican","Ernst, Joni",0.55,-0.094
+"33","M001198","Senate","Kansas","KS","Republican","Marshall, Roger Wayne",0.564,0.189
+"34","M000934","Senate","Kansas","KS","Republican","Moran, Jerry",0.418,0.226
+"35","M000355","Senate","Kentucky","KY","Republican","Mcconnell, Addison Mitchell (Mitch)",0.404,0.023
+"36","P000603","Senate","Kentucky","KY","Republican","Paul, Rand",0.878,-0.479
+"37","C001075","Senate","Louisiana","LA","Republican","Cassidy, Bill",0.466,-0.068
+"38","K000393","Senate","Louisiana","LA","Republican","Kennedy, John Neely",0.582,0.041
+"39","K000383","Senate","Maine","ME","Independent","King, Angus Stanley, Jr.",-0.159,-0.216
+"40","C001035","Senate","Maine","ME","Republican","Collins, Susan Margaret",0.115,-0.536
+"41","C000141","Senate","Maryland","MD","Democrat","Cardin, Benjamin Louis",-0.319,-0.224
+"42","V000128","Senate","Maryland","MD","Democrat","Van Hollen, Christopher",-0.391,-0.208
+"43","M000133","Senate","Massachusetts","MA","Democrat","Markey, Edward John",-0.513,-0.458
+"44","W000817","Senate","Massachusetts","MA","Democrat","Warren, Elizabeth",-0.759,-0.307
+"45","P000595","Senate","Michigan","MI","Democrat","Peters, Gary C.",-0.246,-0.185
+"46","S000770","Senate","Michigan","MI","Democrat","Stabenow, Deborah Ann",-0.343,-0.013
+"47","K000367","Senate","Minnesota","MN","Democrat","Klobuchar, Amy",-0.285,-0.371
+"48","S001203","Senate","Minnesota","MN","Democrat","Smith, Tina",-0.398,-0.059
+"49","W000437","Senate","Mississippi","MS","Republican","Wicker, Roger F.",0.378,0.359
+"50","H001079","Senate","Mississippi","MS","Republican","Hyde-Smith, Cindy",0.431,0.348
+"51","B000575","Senate","Missouri","MO","Republican","Blunt, Roy",0.406,0.219
+"52","H001089","Senate","Missouri","MO","Republican","Hawley, Joshua David",0.728,-0.253
+"53","D000618","Senate","Montana","MT","Republican","Daines, Steve",0.574,-0.06
+"54","T000464","Senate","Montana","MT","Democrat","Tester, Jon",-0.215,0.142
+"55","F000463","Senate","Nebraska","NE","Republican","Fischer, Debra (Deb)",0.451,0.27
+"56","S001197","Senate","Nebraska","NE","Republican","Sasse, Benjamin Eric",0.701,-0.215
+"57","R000608","Senate","Nevada","NV","Democrat","Rosen, Jacklyn Sheryl",-0.285,0.288
+"58","C001113","Senate","Nevada","NV","Democrat","Cortez Masto, Catherine Marie",-0.366,0.334
+"59","S001181","Senate","New Hampshire","NH","Democrat","Shaheen, Jeanne",-0.237,-0.144
+"60","H001076","Senate","New Hampshire","NH","Democrat","Hassan, Margaret (Maggie)",-0.231,-0.004
+"61","M000639","Senate","New Jersey","NJ","Democrat","Menendez, Robert",-0.367,-0.123
+"62","B001288","Senate","New Jersey","NJ","Democrat","Booker, Cory Anthony",-0.591,-0.265
+"63","H001046","Senate","New Mexico","NM","Democrat","Heinrich, Martin",-0.33,-0.019
+"64","L000570","Senate","New Mexico","NM","Democrat","Luján, Ben Ray",-0.368,0.017
+"65","S000148","Senate","New York","NY","Democrat","Schumer, Charles Ellis (Chuck)",-0.358,-0.41
+"66","G000555","Senate","New York","NY","Democrat","Gillibrand, Kirsten",-0.473,-0.426
+"67","B001135","Senate","North Carolina","NC","Republican","Burr, Richard M.",0.437,-0.063
+"68","T000476","Senate","North Carolina","NC","Republican","Tillis, Thomas Roland (Thom)",0.407,-0.04
+"69","C001096","Senate","North Dakota","ND","Republican","Cramer, Kevin",0.402,0.345
+"70","H001061","Senate","North Dakota","ND","Republican","Hoeven, John",0.37,0.397
+"71","P000449","Senate","Ohio","OH","Republican","Portman, Robert Jones (Rob)",0.37,-0.218
+"72","B000944","Senate","Ohio","OH","Democrat","Brown, Sherrod",-0.428,-0.109
+"73","I000024","Senate","Oklahoma","OK","Republican","Inhofe, James Mountain",0.554,0.045
+"74","L000575","Senate","Oklahoma","OK","Republican","Lankford, James",0.602,0.166
+"75","W000779","Senate","Oregon","OR","Democrat","Wyden, Ronald Lee",-0.33,-0.478
+"76","M001176","Senate","Oregon","OR","Democrat","Merkley, Jeff",-0.442,-0.736
+"77","T000461","Senate","Pennsylvania","PA","Republican","Toomey, Patrick Joseph",0.624,-0.356
+"78","C001070","Senate","Pennsylvania","PA","Democrat","Casey, Robert (Bob), Jr.",-0.314,0.186
+"79","R000122","Senate","Rhode Island","RI","Democrat","Reed, John F. (Jack)",-0.367,-0.172
+"80","W000802","Senate","Rhode Island","RI","Democrat","Whitehouse, Sheldon",-0.355,-0.082
+"81","S001184","Senate","South Carolina","SC","Republican","Scott, Tim",0.63,0.003
+"82","G000359","Senate","South Carolina","SC","Republican","Graham, Lindsey O.",0.386,-0.215
+"83","T000250","Senate","South Dakota","SD","Republican","Thune, John",0.422,0.166
+"84","R000605","Senate","South Dakota","SD","Republican","Rounds, Marion Michael (Mike)",0.375,0.076
+"85","B001243","Senate","Tennessee","TN","Republican","Blackburn, Marsha",0.625,0.154
+"86","H000601","Senate","Tennessee","TN","Republican","Hagerty, William Francis (Bill)",0.696,-0.167
+"87","C001056","Senate","Texas","TX","Republican","Cornyn, John",0.476,-0.058
+"88","C001098","Senate","Texas","TX","Republican","Cruz, Rafael Edward (Ted)",0.84,-0.263
+"89","L000577","Senate","Utah","UT","Republican","Lee, Mike",0.885,-0.465
+"90","R000615","Senate","Utah","UT","Republican","Romney, Willard Mitt (Mitt)",0.289,0.334
+"91","L000174","Senate","Vermont","VT","Democrat","Leahy, Patrick Joseph",-0.36,-0.122
+"92","S000033","Senate","Vermont","VT","Independent","Sanders, Bernard",-0.532,-0.401
+"93","W000805","Senate","Virginia","VA","Democrat","Warner, Mark",-0.203,-0.039
+"94","K000384","Senate","Virginia","VA","Democrat","Kaine, Timothy Michael (Tim)",-0.244,-0.056
+"95","C000127","Senate","Washington","WA","Democrat","Cantwell, Maria E.",-0.305,-0.416
+"96","M001111","Senate","Washington","WA","Democrat","Murray, Patty",-0.352,-0.309
+"97","C001047","Senate","West Virginia","WV","Republican","Capito, Shelley Moore",0.27,0.082
+"98","M001183","Senate","West Virginia","WV","Democrat","Manchin, Joe, Iii",-0.058,0.427
+"99","B001230","Senate","Wisconsin","WI","Democrat","Baldwin, Tammy",-0.492,-0.137
+"100","J000293","Senate","Wisconsin","WI","Republican","Johnson, Ron",0.609,-0.219
+"101","L000571","Senate","Wyoming","WY","Republican","Lummis, Cynthia M.",0.683,-0.372
+"102","B001261","Senate","Wyoming","WY","Republican","Barrasso, John A.",0.538,0.233

@@ -1,0 +1,442 @@
+"","bioguide_id","chamber","state_name","state_abbrev","party","district_code","name","nominate_dim1","nominate_dim2"
+"1","R000575","House","Alabama","AL","Republican",3,"Rogers, Mike Dennis",0.359,0.461
+"2","S001185","House","Alabama","AL","Democrat",7,"Sewell, Terri",-0.393,0.401
+"3","B001274","House","Alabama","AL","Republican",5,"Brooks, Mo",0.646,-0.408
+"4","P000609","House","Alabama","AL","Republican",6,"Palmer, Gary James",0.695,0.025
+"5","C001054","House","Alabama","AL","Republican",1,"Carl, Jerry L.",0.57,0.496
+"6","M001212","House","Alabama","AL","Republican",2,"Moore, Barry",0.664,-0.004
+"7","A000055","House","Alabama","AL","Republican",4,"Aderholt, Robert",0.376,0.581
+"8","Y000033","House","Alaska","AK","Republican",1,"Young, Donald Edwin",0.283,0.021
+"9","G000551","House","Arizona","AZ","Democrat",3,"Grijalva, Raúl M.",-0.598,-0.256
+"10","K000368","House","Arizona","AZ","Democrat",2,"Kirkpatrick, Ann",-0.167,-0.006
+"11","G000565","House","Arizona","AZ","Republican",4,"Gosar, Paul",0.691,-0.452
+"12","S001183","House","Arizona","AZ","Republican",6,"Schweikert, David",0.578,-0.298
+"13","G000574","House","Arizona","AZ","Democrat",7,"Gallego, Ruben",-0.449,0.003
+"14","B001302","House","Arizona","AZ","Republican",5,"Biggs, Andrew S.",0.859,-0.513
+"15","O000171","House","Arizona","AZ","Democrat",1,"O'halleran, Thomas C.",-0.193,0.168
+"16","L000589","House","Arizona","AZ","Republican",8,"Lesko, Debbie",0.596,-0.024
+"17","S001211","House","Arizona","AZ","Democrat",9,"Stanton, Greg",-0.29,0.02
+"18","C001087","House","Arkansas","AR","Republican",1,"Crawford, Rick",0.427,0.493
+"19","W000809","House","Arkansas","AR","Republican",3,"Womack, Steve",0.354,0.578
+"20","H001072","House","Arkansas","AR","Republican",2,"Hill, French",0.447,0.25
+"21","W000821","House","Arkansas","AR","Republican",4,"Westerman, Bruce Eugene",0.552,0.311
+"22","P000197","House","California","CA","Democrat",12,"Pelosi, Nancy",-0.49,-0.206
+"23","S001150","House","California","CA","Democrat",28,"Schiff, Adam",-0.35,-0.13
+"24","I000056","House","California","CA","Republican",50,"Issa, Darrell",0.5,-0.064
+"25","N000181","House","California","CA","Republican",22,"Nunes, Devin",0.45,0.223
+"26","S001156","House","California","CA","Democrat",38,"Sánchez, Linda T.",-0.508,-0.136
+"27","C001059","House","California","CA","Democrat",16,"Costa, Jim",-0.192,0.46
+"28","M001163","House","California","CA","Democrat",6,"Matsui, Doris",-0.435,-0.159
+"29","M001166","House","California","CA","Democrat",9,"Mcnerney, Jerry",-0.263,-0.157
+"30","M001165","House","California","CA","Republican",23,"Mccarthy, Kevin",0.455,0.228
+"31","S001175","House","California","CA","Democrat",14,"Speier, Karen Lorraine Jacqueline (Jackie)",-0.381,-0.421
+"32","M001177","House","California","CA","Republican",4,"Mcclintock, Tom",0.708,-0.459
+"33","C001080","House","California","CA","Democrat",27,"Chu, Judy",-0.488,-0.375
+"34","G000559","House","California","CA","Democrat",3,"Garamendi, John",-0.309,-0.096
+"35","B001270","House","California","CA","Democrat",37,"Bass, Karen",-0.584,-0.106
+"36","L000578","House","California","CA","Republican",1,"Lamalfa, Doug",0.532,0.058
+"37","H001068","House","California","CA","Democrat",2,"Huffman, Jared",-0.428,-0.551
+"38","B001287","House","California","CA","Democrat",7,"Bera, Ami",-0.235,0.016
+"39","S001193","House","California","CA","Democrat",15,"Swalwell, Eric",-0.366,-0.101
+"40","V000129","House","California","CA","Republican",21,"Valadao, David G.",0.259,0.396
+"41","B001285","House","California","CA","Democrat",26,"Brownley, Julia",-0.287,0.054
+"42","C001097","House","California","CA","Democrat",29,"Cárdenas, Tony",-0.385,0.018
+"43","R000599","House","California","CA","Democrat",36,"Ruiz, Raul",-0.245,0.059
+"44","T000472","House","California","CA","Democrat",41,"Takano, Mark",-0.465,-0.265
+"45","L000579","House","California","CA","Democrat",47,"Lowenthal, Alan",-0.449,-0.38
+"46","V000130","House","California","CA","Democrat",51,"Vargas, Juan",-0.401,0.086
+"47","P000608","House","California","CA","Democrat",52,"Peters, Scott",-0.182,-0.031
+"48","D000623","House","California","CA","Democrat",11,"Desaulnier, Mark James",-0.532,-0.373
+"49","A000371","House","California","CA","Democrat",31,"Aguilar, Peter Rey",-0.295,0.139
+"50","L000582","House","California","CA","Democrat",33,"Lieu, Ted",-0.374,-0.247
+"51","T000474","House","California","CA","Democrat",35,"Torres, Norma Judith",-0.363,0.044
+"52","B001300","House","California","CA","Democrat",44,"Barragán, Nanette Diaz",-0.515,0.023
+"53","C001112","House","California","CA","Democrat",24,"Carbajal, Salud",-0.299,0.136
+"54","C001110","House","California","CA","Democrat",46,"Correa, Jose Luis",-0.283,0.271
+"55","K000389","House","California","CA","Democrat",17,"Khanna, Rohit",-0.555,-0.283
+"56","P000613","House","California","CA","Democrat",20,"Panetta, James Varni",-0.304,0.08
+"57","G000585","House","California","CA","Democrat",34,"Gomez, Jimmy",-0.579,-0.149
+"58","H001090","House","California","CA","Democrat",10,"Harder, Josh",-0.391,0.735
+"59","L000593","House","California","CA","Democrat",49,"Levin, Mike",-0.369,0.193
+"60","P000618","House","California","CA","Democrat",45,"Porter, Katie",-0.186,-0.117
+"61","G000061","House","California","CA","Republican",25,"Garcia, Mike",0.386,0.074
+"62","J000305","House","California","CA","Democrat",53,"Jacobs, Sara",-0.353,-0.498
+"63","K000397","House","California","CA","Republican",39,"Kim, Young",0.26,0.234
+"64","O000019","House","California","CA","Republican",8,"Obernolte, Jay",0.286,0.42
+"65","S001135","House","California","CA","Republican",48,"Steel, Michelle",0.354,0.333
+"66","W000187","House","California","CA","Democrat",43,"Waters, Maxine",-0.655,-0.076
+"67","E000215","House","California","CA","Democrat",18,"Eshoo, Anna Georges",-0.381,-0.419
+"68","R000486","House","California","CA","Democrat",40,"Roybal-Allard, Lucille",-0.469,-0.18
+"69","C000059","House","California","CA","Republican",42,"Calvert, Ken",0.35,0.226
+"70","L000397","House","California","CA","Democrat",19,"Lofgren, Zoe",-0.402,-0.437
+"71","S000344","House","California","CA","Democrat",30,"Sherman, Brad",-0.343,-0.144
+"72","L000551","House","California","CA","Democrat",13,"Lee, Barbara",-0.681,-0.584
+"73","T000460","House","California","CA","Democrat",5,"Thompson, Michael",-0.395,0.066
+"74","N000179","House","California","CA","Democrat",32,"Napolitano, Grace Flores",-0.448,-0.246
+"75","L000564","House","Colorado","CO","Republican",5,"Lamborn, Doug",0.674,0.214
+"76","P000593","House","Colorado","CO","Democrat",7,"Perlmutter, Ed",-0.282,0.076
+"77","B001297","House","Colorado","CO","Republican",4,"Buck, Kenneth Robert",0.725,-0.434
+"78","C001121","House","Colorado","CO","Democrat",6,"Crow, Jason",-0.276,0.368
+"79","N000191","House","Colorado","CO","Democrat",2,"Neguse, Joseph",-0.381,-0.404
+"80","B000825","House","Colorado","CO","Republican",3,"Boebert, Lauren",0.796,-0.513
+"81","D000197","House","Colorado","CO","Democrat",1,"Degette, Diana",-0.431,-0.31
+"82","C001069","House","Connecticut","CT","Democrat",2,"Courtney, Joe",-0.343,0.015
+"83","H001047","House","Connecticut","CT","Democrat",4,"Himes, James A.",-0.242,-0.234
+"84","H001081","House","Connecticut","CT","Democrat",5,"Hayes, Jahana",-0.363,-0.092
+"85","D000216","House","Connecticut","CT","Democrat",3,"Delauro, Rosa L.",-0.416,-0.119
+"86","L000557","House","Connecticut","CT","Democrat",1,"Larson, John B.",-0.397,-0.049
+"87","B001303","House","Delaware","DE","Democrat",1,"Blunt Rochester, Lisa",-0.333,-0.126
+"88","D000600","House","Florida","FL","Republican",25,"Diaz-Balart, Mario",0.282,0.125
+"89","W000797","House","Florida","FL","Democrat",23,"Wasserman Schultz, Debbie",-0.42,0.072
+"90","C001066","House","Florida","FL","Democrat",14,"Castor, Kathy",-0.438,0.049
+"91","B001260","House","Florida","FL","Republican",16,"Buchanan, Vernon G.",0.361,-0.121
+"92","B001257","House","Florida","FL","Republican",12,"Bilirakis, Gus",0.404,0.026
+"93","P000599","House","Florida","FL","Republican",8,"Posey, Bill",0.527,-0.336
+"94","D000610","House","Florida","FL","Democrat",22,"Deutch, Theodore E. (Ted)",-0.401,-0.085
+"95","W000806","House","Florida","FL","Republican",11,"Webster, Daniel A.",0.514,-0.053
+"96","W000808","House","Florida","FL","Democrat",24,"Wilson, Frederica",-0.478,-0.018
+"97","F000462","House","Florida","FL","Democrat",21,"Frankel, Lois",-0.401,-0.079
+"98","C001111","House","Florida","FL","Democrat",13,"Crist, Charlie Joseph Jr.",-0.224,0.064
+"99","D000627","House","Florida","FL","Democrat",10,"Demings, Valdez Butler",-0.328,-0.032
+"100","D000628","House","Florida","FL","Republican",2,"Dunn, Neal Patrick",0.522,0.295
+"101","G000578","House","Florida","FL","Republican",1,"Gaetz, Matthew L. Ii",0.622,-0.623
+"102","L000586","House","Florida","FL","Democrat",5,"Lawson, Alfred Jr.",-0.259,0.063
+"103","M001199","House","Florida","FL","Republican",18,"Mast, Brian Jeffery",0.455,-0.373
+"104","M001202","House","Florida","FL","Democrat",7,"Murphy, Stephanie",-0.16,0.094
+"105","R000609","House","Florida","FL","Republican",4,"Rutherford, John Henry",0.424,0.082
+"106","S001200","House","Florida","FL","Democrat",9,"Soto, Darren Michael",-0.376,0.127
+"107","S001214","House","Florida","FL","Republican",17,"Steube, William",0.675,-0.292
+"108","W000823","House","Florida","FL","Republican",6,"Waltz, Michael",0.414,-0.078
+"109","C001039","House","Florida","FL","Republican",3,"Cammack, Kat",0.66,-0.133
+"110","D000032","House","Florida","FL","Republican",19,"Donalds, Byron",0.681,-0.124
+"111","F000472","House","Florida","FL","Republican",15,"Franklin, C. Scott",0.596,0.412
+"112","G000593","House","Florida","FL","Republican",26,"Gimenez, Carlos A.",0.295,0.11
+"113","S000168","House","Florida","FL","Republican",27,"Salazar, Maria Elvira",0.281,-0.001
+"114","C001127","House","Florida","FL","Democrat",20,"Cherfilus-Mccormick, Sheila",-0.662,0.006
+"115","H000324","House","Florida","FL","Democrat",20,"Hastings, Alcee Lamar",-0.564,0.157
+"116","S001157","House","Georgia","GA","Democrat",13,"Scott, David",-0.302,0.163
+"117","J000288","House","Georgia","GA","Democrat",4,"Johnson, Hank",-0.469,0.002
+"118","S001189","House","Georgia","GA","Republican",8,"Scott, Austin",0.564,0.211
+"119","C001103","House","Georgia","GA","Republican",1,"Carter, Buddy",0.58,0.287
+"120","H001071","House","Georgia","GA","Republican",10,"Hice, Jody Brownlow",0.79,-0.19
+"121","L000583","House","Georgia","GA","Republican",11,"Loudermilk, Barry D.",0.688,-0.005
+"122","A000372","House","Georgia","GA","Republican",12,"Allen, Rick W.",0.695,0.262
+"123","F000465","House","Georgia","GA","Republican",3,"Ferguson, Anderson Drew Iv",0.602,0.131
+"124","M001208","House","Georgia","GA","Democrat",6,"Mcbath, Lucy",-0.271,0.388
+"125","B001312","House","Georgia","GA","Democrat",7,"Bourdeaux, Carolyn",-0.356,0.686
+"126","C001116","House","Georgia","GA","Republican",9,"Clyde, Andrew S.",0.776,-0.159
+"127","G000596","House","Georgia","GA","Republican",14,"Greene, Marjorie Taylor",0.8,-0.6
+"128","W000788","House","Georgia","GA","Democrat",5,"Williams, Nikema",-0.352,-0.386
+"129","B000490","House","Georgia","GA","Democrat",2,"Bishop, Sanford Dixon, Jr.",-0.283,0.461
+"130","C001055","House","Hawaii","HI","Democrat",1,"Case, Ed",-0.196,-0.104
+"131","K000396","House","Hawaii","HI","Democrat",2,"Kahele, Kaialiʻi",-0.409,0.069
+"132","F000469","House","Idaho","ID","Republican",1,"Fulcher, Russell",0.637,0.039
+"133","S001148","House","Idaho","ID","Republican",2,"Simpson, Michael K.",0.297,0.287
+"134","F000454","House","Illinois","IL","Democrat",11,"Foster, Bill",-0.23,-0.221
+"135","Q000023","House","Illinois","IL","Democrat",5,"Quigley, Mike",-0.322,-0.269
+"136","K000378","House","Illinois","IL","Republican",16,"Kinzinger, Adam",0.247,0.372
+"137","S001190","House","Illinois","IL","Democrat",10,"Schneider, Brad",-0.179,-0.172
+"138","D000619","House","Illinois","IL","Republican",13,"Davis, Rodney",0.274,0.176
+"139","B001286","House","Illinois","IL","Democrat",17,"Bustos, Cheri",-0.238,0.049
+"140","K000385","House","Illinois","IL","Democrat",2,"Kelly, Robin L.",-0.461,-0.01
+"141","B001295","House","Illinois","IL","Republican",12,"Bost, Mike",0.282,0.448
+"142","L000585","House","Illinois","IL","Republican",18,"Lahood, Darin",0.464,0.201
+"143","K000391","House","Illinois","IL","Democrat",8,"Krishnamoorthi, S. Raja",-0.318,-0.106
+"144","C001117","House","Illinois","IL","Democrat",6,"Casten, Sean",-0.571,0.393
+"145","G000586","House","Illinois","IL","Democrat",4,"García, Jesús",-0.488,-0.783
+"146","U000040","House","Illinois","IL","Democrat",14,"Underwood, Lauren",-0.536,0.617
+"147","M001211","House","Illinois","IL","Republican",15,"Miller, Mary E.",0.821,-0.323
+"148","N000192","House","Illinois","IL","Democrat",3,"Newman, Marie",-0.619,-0.137
+"149","R000515","House","Illinois","IL","Democrat",1,"Rush, Bobby L.",-0.479,-0.203
+"150","D000096","House","Illinois","IL","Democrat",7,"Davis, Danny K.",-0.486,-0.265
+"151","S001145","House","Illinois","IL","Democrat",9,"Schakowsky, Janice D.",-0.604,-0.268
+"152","C001072","House","Indiana","IN","Democrat",7,"Carson, André",-0.429,0.056
+"153","B001275","House","Indiana","IN","Republican",8,"Bucshon, Larry",0.409,0.261
+"154","W000813","House","Indiana","IN","Republican",2,"Walorski, Jackie",0.427,0.331
+"155","B001299","House","Indiana","IN","Republican",3,"Banks, James E.",0.641,0.018
+"156","H001074","House","Indiana","IN","Republican",9,"Hollingsworth, Joseph Albert Iii",0.414,-0.246
+"157","B001307","House","Indiana","IN","Republican",4,"Baird, James",0.464,0.41
+"158","P000615","House","Indiana","IN","Republican",6,"Pence, Gregory",0.485,0.317
+"159","M001214","House","Indiana","IN","Democrat",1,"Mrvan, Frank J.",-0.273,0.111
+"160","S000929","House","Indiana","IN","Republican",5,"Spartz, Victoria",0.433,-0.03
+"161","A000378","House","Iowa","IA","Democrat",3,"Axne, Cynthia",-0.243,0.548
+"162","F000446","House","Iowa","IA","Republican",4,"Feenstra, Randy",0.439,0.234
+"163","H001091","House","Iowa","IA","Republican",1,"Hinson, Ashley",0.39,0.016
+"164","M001215","House","Iowa","IA","Republican",2,"Miller-Meeks, Mariannette",0.288,0.403
+"165","E000298","House","Kansas","KS","Republican",4,"Estes, Ron",0.62,0.069
+"166","D000629","House","Kansas","KS","Democrat",3,"Davids, Sharice",-0.255,0.236
+"167","L000266","House","Kansas","KS","Republican",2,"Laturner, Jake",0.522,0.453
+"168","M000871","House","Kansas","KS","Republican",1,"Mann, Tracey",0.707,0.324
+"169","R000395","House","Kentucky","KY","Republican",5,"Rogers, Harold Dallas (Hal)",0.338,0.116
+"170","Y000062","House","Kentucky","KY","Democrat",3,"Yarmuth, John",-0.378,-0.269
+"171","G000558","House","Kentucky","KY","Republican",2,"Guthrie, Brett",0.42,0.276
+"172","B001282","House","Kentucky","KY","Republican",6,"Barr, Garland H. (Andy) Iv",0.483,0.309
+"173","C001108","House","Kentucky","KY","Republican",1,"Comer, James",0.6,-0.025
+"174","M001184","House","Kentucky","KY","Republican",4,"Massie, Thomas",0.679,-0.734
+"175","S001176","House","Louisiana","LA","Republican",1,"Scalise, Steve",0.557,0.166
+"176","R000588","House","Louisiana","LA","Democrat",2,"Richmond, Cedric",-0.486,0.332
+"177","G000577","House","Louisiana","LA","Republican",6,"Graves, Garret",0.451,-0.024
+"178","H001077","House","Louisiana","LA","Republican",3,"Higgins, Clay",0.613,-0.275
+"179","J000299","House","Louisiana","LA","Republican",4,"Johnson, Mike",0.562,-0.019
+"180","L000595","House","Louisiana","LA","Republican",5,"Letlow, Julia",0.413,0.56
+"181","C001125","House","Louisiana","LA","Democrat",2,"Carter, Troy",-0.335,-0.074
+"182","P000597","House","Maine","ME","Democrat",1,"Pingree, Chellie",-0.419,-0.386
+"183","G000592","House","Maine","ME","Democrat",2,"Golden, Jared",-0.113,0.327
+"184","H000874","House","Maryland","MD","Democrat",5,"Hoyer, Steny Hamilton",-0.381,0.118
+"185","M000687","House","Maryland","MD","Democrat",7,"Mfume, Kweisi",-0.447,-0.416
+"186","R000576","House","Maryland","MD","Democrat",2,"Ruppersberger, C. A. (Dutch)",-0.296,0.131
+"187","S001168","House","Maryland","MD","Democrat",3,"Sarbanes, John",-0.467,-0.07
+"188","H001052","House","Maryland","MD","Republican",1,"Harris, Andy",0.669,-0.39
+"189","B001304","House","Maryland","MD","Democrat",4,"Brown, Anthony Gregory",-0.338,-0.109
+"190","R000606","House","Maryland","MD","Democrat",8,"Raskin, Jamie Ben",-0.539,-0.258
+"191","T000483","House","Maryland","MD","Democrat",6,"Trone, David",-0.265,0.065
+"192","N000015","House","Massachusetts","MA","Democrat",1,"Neal, Richard Edmund",-0.417,-0.107
+"193","L000562","House","Massachusetts","MA","Democrat",8,"Lynch, Stephen F.",-0.35,0.041
+"194","K000375","House","Massachusetts","MA","Democrat",9,"Keating, William R.",-0.329,-0.123
+"195","C001101","House","Massachusetts","MA","Democrat",5,"Clark, Katherine M.",-0.482,-0.368
+"196","M001196","House","Massachusetts","MA","Democrat",6,"Moulton, Seth",-0.284,-0.063
+"197","P000617","House","Massachusetts","MA","Democrat",7,"Pressley, Ayanna",-0.313,-0.95
+"198","T000482","House","Massachusetts","MA","Democrat",3,"Trahan, Lori",-0.471,-0.1
+"199","A000148","House","Massachusetts","MA","Democrat",4,"Auchincloss, Jake",-0.291,-0.535
+"200","M000312","House","Massachusetts","MA","Democrat",2,"Mcgovern, James P.",-0.539,-0.308
+"201","U000031","House","Michigan","MI","Republican",6,"Upton, Frederick Stephen",0.329,-0.371
+"202","W000798","House","Michigan","MI","Republican",7,"Walberg, Tim",0.513,0.091
+"203","H001058","House","Michigan","MI","Republican",2,"Huizenga, Bill",0.568,-0.056
+"204","K000380","House","Michigan","MI","Democrat",5,"Kildee, Dan",-0.39,-0.22
+"205","M001194","House","Michigan","MI","Republican",4,"Moolenaar, John",0.399,0.418
+"206","D000624","House","Michigan","MI","Democrat",12,"Dingell, Debbie",-0.405,-0.136
+"207","L000581","House","Michigan","MI","Democrat",14,"Lawrence, Brenda L",-0.446,-0.026
+"208","B001301","House","Michigan","MI","Republican",1,"Bergman, John",0.436,0.092
+"209","L000592","House","Michigan","MI","Democrat",9,"Levin, Andy",-0.475,-0.557
+"210","S001208","House","Michigan","MI","Democrat",8,"Slotkin, Elissa",-0.314,0.808
+"211","S001215","House","Michigan","MI","Democrat",11,"Stevens, Haley",-0.344,0.376
+"212","T000481","House","Michigan","MI","Democrat",13,"Tlaib, Rashida",-0.258,-0.966
+"213","M001136","House","Michigan","MI","Republican",10,"Mcclain, Lisa C.",0.513,0.395
+"214","M001186","House","Michigan","MI","Republican",3,"Meijer, Peter",0.245,0.143
+"215","M001143","House","Minnesota","MN","Democrat",4,"Mccollum, Betty",-0.418,-0.187
+"216","E000294","House","Minnesota","MN","Republican",6,"Emmer, Thomas Earl Ii",0.45,-0.041
+"217","C001119","House","Minnesota","MN","Democrat",2,"Craig, Angela",-0.307,0.691
+"218","H001088","House","Minnesota","MN","Republican",1,"Hagedorn, Jim",0.477,0.345
+"219","O000173","House","Minnesota","MN","Democrat",5,"Omar, Ilhan",-0.29,-0.957
+"220","P000616","House","Minnesota","MN","Democrat",3,"Phillips, Dean",-0.264,0.161
+"221","S001212","House","Minnesota","MN","Republican",8,"Stauber, Peter",0.311,0.108
+"222","F000470","House","Minnesota","MN","Republican",7,"Fischbach, Michelle",0.505,0.375
+"223","P000601","House","Mississippi","MS","Republican",4,"Palazzo, Steven",0.534,0.502
+"224","K000388","House","Mississippi","MS","Republican",1,"Kelly, Trent",0.63,0.252
+"225","G000591","House","Mississippi","MS","Republican",3,"Guest, Michael",0.511,0.186
+"226","T000193","House","Mississippi","MS","Democrat",2,"Thompson, Bennie",-0.516,0.399
+"227","G000546","House","Missouri","MO","Republican",6,"Graves, Samuel",0.445,0.181
+"228","C001061","House","Missouri","MO","Democrat",5,"Cleaver, Emanuel, Ii",-0.454,0.017
+"229","L000569","House","Missouri","MO","Republican",3,"Luetkemeyer, Blaine",0.442,0.259
+"230","H001053","House","Missouri","MO","Republican",4,"Hartzler, Vicky",0.467,0.282
+"231","L000576","House","Missouri","MO","Republican",7,"Long, Billy",0.545,0.241
+"232","W000812","House","Missouri","MO","Republican",2,"Wagner, Ann",0.431,0.15
+"233","S001195","House","Missouri","MO","Republican",8,"Smith, Jason",0.596,0.178
+"234","B001224","House","Missouri","MO","Democrat",1,"Bush, Cori",-0.239,-0.971
+"235","R000103","House","Montana","MT","Republican",1,"Rosendale, Matthew M., Sr.",0.765,-0.493
+"236","F000449","House","Nebraska","NE","Republican",1,"Fortenberry, Jeff",0.303,-0.06
+"237","S001172","House","Nebraska","NE","Republican",3,"Smith, Adrian",0.517,0.199
+"238","B001298","House","Nebraska","NE","Republican",2,"Bacon, Donald J.",0.374,-0.078
+"239","T000468","House","Nevada","NV","Democrat",1,"Titus, Alice (Dina)",-0.304,-0.214
+"240","A000369","House","Nevada","NV","Republican",2,"Amodei, Mark E.",0.378,0.189
+"241","H001066","House","Nevada","NV","Democrat",4,"Horsford, Steven",-0.35,0.114
+"242","L000590","House","Nevada","NV","Democrat",3,"Lee, Susie",-0.285,0.435
+"243","K000382","House","New Hampshire","NH","Democrat",2,"Kuster, Ann Mclane",-0.257,-0.117
+"244","P000614","House","New Hampshire","NH","Democrat",1,"Pappas, Chris",-0.28,0.369
+"245","S000522","House","New Jersey","NJ","Republican",4,"Smith, Christopher Henry",0.167,-0.167
+"246","P000034","House","New Jersey","NJ","Democrat",6,"Pallone, Frank, Jr.",-0.404,-0.168
+"247","S001165","House","New Jersey","NJ","Democrat",8,"Sires, Albio",-0.404,0.096
+"248","N000188","House","New Jersey","NJ","Democrat",1,"Norcross, Donald",-0.427,0.328
+"249","W000822","House","New Jersey","NJ","Democrat",12,"Watson Coleman, Bonnie",-0.621,-0.142
+"250","G000583","House","New Jersey","NJ","Democrat",5,"Gottheimer, Josh S.",-0.148,0.235
+"251","K000394","House","New Jersey","NJ","Democrat",3,"Kim, Andy",-0.298,0.414
+"252","M001203","House","New Jersey","NJ","Democrat",7,"Malinowski, Tomaz",-0.269,0.115
+"253","S001207","House","New Jersey","NJ","Democrat",11,"Sherrill, Mikie",-0.199,0.293
+"254","P000096","House","New Jersey","NJ","Democrat",9,"Pascrell, William J., Jr.",-0.367,-0.006
+"255","P000604","House","New Jersey","NJ","Democrat",10,"Payne, Donald, Jr.",-0.518,-0.108
+"256","V000133","House","New Jersey","NJ","Republican",2,"Van Drew, Jefferson",0.248,-0.287
+"257","H001080","House","New Mexico","NM","Democrat",1,"Haaland, Debra",-0.332,-0.233
+"258","H001084","House","New Mexico","NM","Republican",2,"Herrell, Yvette",0.936,0.352
+"259","L000273","House","New Mexico","NM","Democrat",3,"Leger Fernandez, Teresa",-0.397,-0.221
+"260","S001218","House","New Mexico","NM","Democrat",1,"Stansbury, Melanie Ann",-0.594,-0.185
+"261","H001038","House","New York","NY","Democrat",26,"Higgins, Brian",-0.348,-0.032
+"262","C001067","House","New York","NY","Democrat",9,"Clarke, Yvette Diane",-0.613,-0.222
+"263","T000469","House","New York","NY","Democrat",20,"Tonko, Paul",-0.421,-0.262
+"264","R000585","House","New York","NY","Republican",23,"Reed, Thomas W. Ii",0.271,0.115
+"265","M001188","House","New York","NY","Democrat",6,"Meng, Grace",-0.376,-0.202
+"266","J000294","House","New York","NY","Democrat",8,"Jeffries, Hakeem",-0.489,-0.089
+"267","M001185","House","New York","NY","Democrat",18,"Maloney, Sean Patrick",-0.238,0.115
+"268","Z000017","House","New York","NY","Republican",1,"Zeldin, Lee M",0.397,-0.141
+"269","R000602","House","New York","NY","Democrat",4,"Rice, Kathleen Maura",-0.286,0.038
+"270","S001196","House","New York","NY","Republican",21,"Stefanik, Elise M",0.246,-0.017
+"271","K000386","House","New York","NY","Republican",24,"Katko, John",0.194,-0.009
+"272","E000297","House","New York","NY","Democrat",13,"Espaillat, Adriano J.",-0.615,-0.214
+"273","S001201","House","New York","NY","Democrat",3,"Suozzi, Thomas",-0.216,0.081
+"274","T000478","House","New York","NY","Republican",22,"Tenney, Claudia",0.385,0.196
+"275","M001206","House","New York","NY","Democrat",25,"Morelle, Joseph D.",-0.358,0.133
+"276","D000630","House","New York","NY","Democrat",19,"Delgado, Antonio",-0.23,0.274
+"277","O000172","House","New York","NY","Democrat",14,"Ocasio-Cortez, Alexandria",-0.246,-0.969
+"278","J000020","House","New York","NY","Republican",27,"Jacobs, Chris",0.335,0.089
+"279","B001223","House","New York","NY","Democrat",16,"Bowman, Jamaal",-0.312,-0.95
+"280","G000597","House","New York","NY","Republican",2,"Garbarino, Andrew R.",0.277,0.009
+"281","J000306","House","New York","NY","Democrat",17,"Jones, Mondaire",-0.409,-0.589
+"282","M000317","House","New York","NY","Republican",11,"Malliotakis, Nicole",0.257,0.265
+"283","T000486","House","New York","NY","Democrat",15,"Torres, Ritchie",-0.539,-0.342
+"284","N000002","House","New York","NY","Democrat",10,"Nadler, Jerrold Lewis",-0.508,-0.5
+"285","V000081","House","New York","NY","Democrat",7,"Velázquez, Nydia M.",-0.547,-0.342
+"286","M000087","House","New York","NY","Democrat",12,"Maloney, Carolyn Bosher",-0.387,-0.282
+"287","M001137","House","New York","NY","Democrat",5,"Meeks, Gregory W.",-0.414,-0.073
+"288","P000523","House","North Carolina","NC","Democrat",4,"Price, David Eugene",-0.343,-0.031
+"289","B001251","House","North Carolina","NC","Democrat",1,"Butterfield, George Kenneth, Jr. (G.k.)",-0.404,0.183
+"290","F000450","House","North Carolina","NC","Republican",5,"Foxx, Virginia Ann",0.627,0.136
+"291","M001156","House","North Carolina","NC","Republican",10,"Mchenry, Patrick T.",0.543,0.086
+"292","H001067","House","North Carolina","NC","Republican",8,"Hudson, Richard",0.558,0.108
+"293","R000603","House","North Carolina","NC","Republican",7,"Rouzer, David",0.57,0.154
+"294","A000370","House","North Carolina","NC","Democrat",12,"Adams, Alma",-0.466,0.029
+"295","B001305","House","North Carolina","NC","Republican",13,"Budd, Theodore Paul",0.668,-0.132
+"296","B001311","House","North Carolina","NC","Republican",9,"Bishop, Dan",0.715,-0.164
+"297","M001210","House","North Carolina","NC","Republican",3,"Murphy, Gregory Francis",0.472,0.001
+"298","C001104","House","North Carolina","NC","Republican",11,"Cawthorn, Madison",0.568,-0.106
+"299","M001135","House","North Carolina","NC","Democrat",6,"Manning, Kathy E.",-0.265,0.062
+"300","R000305","House","North Carolina","NC","Democrat",2,"Ross, Deborah K.",-0.376,0.23
+"301","A000377","House","North Dakota","ND","Republican",1,"Armstrong, Kelly",0.48,-0.031
+"302","K000009","House","Ohio","OH","Democrat",9,"Kaptur, Marcia Carolyn (Marcy)",-0.35,0.108
+"303","T000463","House","Ohio","OH","Republican",10,"Turner, Michael R.",0.276,0.214
+"304","R000577","House","Ohio","OH","Democrat",13,"Ryan, Timothy J.",-0.402,0.21
+"305","J000289","House","Ohio","OH","Republican",4,"Jordan, Jim",0.717,-0.204
+"306","L000566","House","Ohio","OH","Republican",5,"Latta, Robert E.",0.515,0.267
+"307","F000455","House","Ohio","OH","Democrat",11,"Fudge, Marcia L.",-0.581,0.14
+"308","J000292","House","Ohio","OH","Republican",6,"Johnson, Bill",0.426,0.275
+"309","S001187","House","Ohio","OH","Republican",15,"Stivers, Steve",0.3,0.269
+"310","G000563","House","Ohio","OH","Republican",7,"Gibbs, Bob",0.479,0.295
+"311","W000815","House","Ohio","OH","Republican",2,"Wenstrup, Brad",0.543,0.201
+"312","B001281","House","Ohio","OH","Democrat",3,"Beatty, Joyce",-0.433,0.055
+"313","J000295","House","Ohio","OH","Republican",14,"Joyce, David",0.264,0.265
+"314","D000626","House","Ohio","OH","Republican",8,"Davidson, Warren",0.676,-0.353
+"315","B001306","House","Ohio","OH","Republican",12,"Balderson, Troy",0.418,0.379
+"316","G000588","House","Ohio","OH","Republican",16,"Gonzalez, Anthony",0.263,0.289
+"317","B001313","House","Ohio","OH","Democrat",11,"Brown, Shontel  M.",-0.581,0.219
+"318","C001126","House","Ohio","OH","Republican",15,"Carey, Mike",0.344,-0.061
+"319","C000266","House","Ohio","OH","Republican",1,"Chabot, Steve",0.559,-0.178
+"320","C001053","House","Oklahoma","OK","Republican",4,"Cole, Tom",0.331,0.364
+"321","M001190","House","Oklahoma","OK","Republican",2,"Mullin, Markwayne",0.522,0.27
+"322","H001082","House","Oklahoma","OK","Republican",1,"Hern, Kevin",0.68,0.006
+"323","B000740","House","Oklahoma","OK","Republican",5,"Bice, Stephanie I.",0.401,0.334
+"324","L000491","House","Oklahoma","OK","Republican",3,"Lucas, Frank D.",0.364,0.418
+"325","D000191","House","Oregon","OR","Democrat",4,"Defazio, Peter Anthony",-0.428,0.001
+"326","S001180","House","Oregon","OR","Democrat",5,"Schrader, Kurt",-0.185,0.057
+"327","B001278","House","Oregon","OR","Democrat",1,"Bonamici, Suzanne",-0.394,-0.405
+"328","B000668","House","Oregon","OR","Republican",2,"Bentz, Cliff",0.417,0.458
+"329","B000574","House","Oregon","OR","Democrat",3,"Blumenauer, Earl",-0.427,-0.663
+"330","T000467","House","Pennsylvania","PA","Republican",15,"Thompson, Glenn",0.317,0.395
+"331","K000376","House","Pennsylvania","PA","Republican",16,"Kelly, Mike",0.359,0.439
+"332","P000605","House","Pennsylvania","PA","Republican",10,"Perry, Scott",0.651,-0.393
+"333","C001090","House","Pennsylvania","PA","Democrat",8,"Cartwright, Matt",-0.361,-0.033
+"334","B001296","House","Pennsylvania","PA","Democrat",2,"Boyle, Brendan Francis",-0.4,0.131
+"335","E000296","House","Pennsylvania","PA","Democrat",3,"Evans, Dwight",-0.462,-0.101
+"336","F000466","House","Pennsylvania","PA","Republican",1,"Fitzpatrick, Brian K.",0.165,-0.178
+"337","S001199","House","Pennsylvania","PA","Republican",11,"Smucker, Lloyd K.",0.427,0.265
+"338","L000588","House","Pennsylvania","PA","Democrat",17,"Lamb, Conor",-0.134,0.209
+"339","S001205","House","Pennsylvania","PA","Democrat",5,"Scanlon, Mary Gay",-0.47,0.01
+"340","W000826","House","Pennsylvania","PA","Democrat",7,"Wild, Susan",-0.31,0.489
+"341","D000631","House","Pennsylvania","PA","Democrat",4,"Dean, Madeleine",-0.487,0.026
+"342","H001085","House","Pennsylvania","PA","Democrat",6,"Houlahan, Christina",-0.308,0.526
+"343","J000302","House","Pennsylvania","PA","Republican",13,"Joyce, John",0.517,0.24
+"344","M001204","House","Pennsylvania","PA","Republican",9,"Meuser, Dan",0.514,0.383
+"345","R000610","House","Pennsylvania","PA","Republican",14,"Reschenthaler, Guy",0.374,0.321
+"346","K000395","House","Pennsylvania","PA","Republican",12,"Keller, Fred",0.493,0.183
+"347","D000482","House","Pennsylvania","PA","Democrat",18,"Doyle, Michael F.",-0.331,0.104
+"348","L000559","House","Rhode Island","RI","Democrat",2,"Langevin, James",-0.375,0.112
+"349","C001084","House","Rhode Island","RI","Democrat",1,"Cicilline, David N.",-0.388,-0.268
+"350","W000795","House","South Carolina","SC","Republican",2,"Wilson, Addison Graves (Joe)",0.534,0.121
+"351","D000615","House","South Carolina","SC","Republican",3,"Duncan, Jeff",0.72,-0.131
+"352","R000597","House","South Carolina","SC","Republican",7,"Rice, Tom",0.586,-0.253
+"353","N000190","House","South Carolina","SC","Republican",5,"Norman, Ralph",0.821,-0.295
+"354","T000480","House","South Carolina","SC","Republican",4,"Timmons, William",0.585,0.19
+"355","M000194","House","South Carolina","SC","Republican",1,"Mace, Nancy",0.394,-0.242
+"356","C000537","House","South Carolina","SC","Democrat",6,"Clyburn, James Enos",-0.464,0.254
+"357","J000301","House","South Dakota","SD","Republican",1,"Johnson, Dustin",0.457,0.162
+"358","C000754","House","Tennessee","TN","Democrat",5,"Cooper, James Hayes Shofner",-0.164,-0.032
+"359","C001068","House","Tennessee","TN","Democrat",9,"Cohen, Stephen",-0.398,-0.351
+"360","F000459","House","Tennessee","TN","Republican",3,"Fleischmann, Chuck",0.457,0.301
+"361","D000616","House","Tennessee","TN","Republican",4,"Desjarlais, Scott",0.582,-0.083
+"362","K000392","House","Tennessee","TN","Republican",8,"Kustoff, David",0.528,0.336
+"363","B001309","House","Tennessee","TN","Republican",2,"Burchett, Timothy",0.671,-0.323
+"364","G000590","House","Tennessee","TN","Republican",7,"Green, Mark",0.677,-0.036
+"365","R000612","House","Tennessee","TN","Republican",6,"Rose, John",0.667,0.053
+"366","H001086","House","Tennessee","TN","Republican",1,"Harshbarger, Diana",0.672,0.023
+"367","B001248","House","Texas","TX","Republican",26,"Burgess, Michael C.",0.573,-0.2
+"368","C001051","House","Texas","TX","Republican",31,"Carter, John R.",0.476,0.596
+"369","G000552","House","Texas","TX","Republican",1,"Gohmert, Louie",0.637,-0.375
+"370","G000553","House","Texas","TX","Democrat",9,"Green, Al",-0.438,0.3
+"371","M001157","House","Texas","TX","Republican",10,"Mccaul, Michael T.",0.428,0.096
+"372","C001063","House","Texas","TX","Democrat",28,"Cuellar, Henry",-0.228,0.615
+"373","W000814","House","Texas","TX","Republican",14,"Weber, Randy",0.727,-0.02
+"374","C001091","House","Texas","TX","Democrat",20,"Castro, Joaquin",-0.401,-0.032
+"375","W000816","House","Texas","TX","Republican",25,"Williams, Roger",0.585,0.127
+"376","V000131","House","Texas","TX","Democrat",33,"Veasey, Marc",-0.401,0.284
+"377","V000132","House","Texas","TX","Democrat",34,"Vela, Filemon",-0.311,0.407
+"378","B001291","House","Texas","TX","Republican",36,"Babin, Brian",0.704,0.083
+"379","A000375","House","Texas","TX","Republican",19,"Arrington, Jodey Cook",0.651,-0.084
+"380","G000581","House","Texas","TX","Democrat",15,"Gonzalez, Vicente Jr.",-0.379,0.663
+"381","C001115","House","Texas","TX","Republican",27,"Cloud, Michael",0.67,-0.256
+"382","A000376","House","Texas","TX","Democrat",32,"Allred, Colin",-0.442,0.604
+"383","C001120","House","Texas","TX","Republican",2,"Crenshaw, Daniel",0.424,0.23
+"384","E000299","House","Texas","TX","Democrat",16,"Escobar, Veronica",-0.397,-0.512
+"385","F000468","House","Texas","TX","Democrat",7,"Fletcher, Elizabeth",-0.386,0.71
+"386","G000587","House","Texas","TX","Democrat",29,"Garcia, Sylvia",-0.815,0.526
+"387","G000589","House","Texas","TX","Republican",5,"Gooden, Lance",0.743,-0.076
+"388","R000614","House","Texas","TX","Republican",21,"Roy, Charles",0.8,-0.6
+"389","T000479","House","Texas","TX","Republican",3,"Taylor, Nicholas",0.569,-0.196
+"390","W000827","House","Texas","TX","Republican",6,"Wright, Ron",0.711,-0.09
+"391","F000246","House","Texas","TX","Republican",4,"Fallon, Pat",0.718,0.226
+"392","G000594","House","Texas","TX","Republican",23,"Gonzales, Tony",0.296,0.355
+"393","J000304","House","Texas","TX","Republican",13,"Jackson, Ronny",0.75,0.049
+"394","N000026","House","Texas","TX","Republican",22,"Nehls, Troy E.",0.594,0.05
+"395","P000048","House","Texas","TX","Republican",11,"Pfluger, August",0.669,0.743
+"396","V000134","House","Texas","TX","Republican",24,"Van Duyne, Beth",0.544,0.138
+"397","E000071","House","Texas","TX","Republican",6,"Ellzey, Jake",0.504,0.435
+"398","D000399","House","Texas","TX","Democrat",35,"Doggett, Lloyd Alton, Ii",-0.402,-0.314
+"399","J000032","House","Texas","TX","Democrat",18,"Jackson Lee, Sheila",-0.46,0.125
+"400","S000250","House","Texas","TX","Republican",17,"Sessions, Pete",0.591,0.149
+"401","B000755","House","Texas","TX","Republican",8,"Brady, Kevin Patrick",0.523,0.225
+"402","G000377","House","Texas","TX","Republican",12,"Granger, Kay",0.4,0.235
+"403","J000126","House","Texas","TX","Democrat",30,"Johnson, Eddie Bernice",-0.485,0.201
+"404","S001192","House","Utah","UT","Republican",2,"Stewart, Chris",0.517,0.144
+"405","C001114","House","Utah","UT","Republican",3,"Curtis, John R.",0.499,0.032
+"406","M001213","House","Utah","UT","Republican",1,"Moore, Blake D.",0.35,0.323
+"407","O000086","House","Utah","UT","Republican",4,"Owens, Burgess",0.453,0.199
+"408","W000800","House","Vermont","VT","Democrat",1,"Welch, Peter",-0.408,-0.356
+"409","W000804","House","Virginia","VA","Republican",1,"Wittman, Robert J.",0.445,-0.006
+"410","C001078","House","Virginia","VA","Democrat",11,"Connolly, Gerald E. (Gerry)",-0.306,-0.02
+"411","G000568","House","Virginia","VA","Republican",9,"Griffith, H. Morgan",0.54,-0.414
+"412","B001292","House","Virginia","VA","Democrat",8,"Beyer, Donald Sternoff Jr.",-0.386,-0.048
+"413","M001200","House","Virginia","VA","Democrat",4,"Mceachin, Aston Donald",-0.378,-0.049
+"414","C001118","House","Virginia","VA","Republican",6,"Cline, Benjamin",0.705,-0.177
+"415","L000591","House","Virginia","VA","Democrat",2,"Luria, Elaine",-0.196,0.412
+"416","S001209","House","Virginia","VA","Democrat",7,"Spanberger, Abigail",-0.175,0.44
+"417","W000825","House","Virginia","VA","Democrat",10,"Wexton, Jennifer",-0.347,0.362
+"418","G000595","House","Virginia","VA","Republican",5,"Good, Bob",0.8,-0.6
+"419","S000185","House","Virginia","VA","Democrat",3,"Scott, Robert C.",-0.45,0.017
+"420","L000560","House","Washington","WA","Democrat",2,"Larsen, Richard Ray (Rick)",-0.365,0.189
+"421","M001159","House","Washington","WA","Republican",5,"Mcmorris Rodgers, Cathy",0.424,0.124
+"422","H001056","House","Washington","WA","Republican",3,"Herrera Beutler, Jaime",0.35,-0.169
+"423","K000381","House","Washington","WA","Democrat",6,"Kilmer, Derek",-0.31,-0.012
+"424","N000189","House","Washington","WA","Republican",4,"Newhouse, Daniel Milton",0.339,0.26
+"425","J000298","House","Washington","WA","Democrat",7,"Jayapal, Pramila",-0.691,-0.333
+"426","S001216","House","Washington","WA","Democrat",8,"Schrier, Kim",-0.33,0.506
+"427","S001159","House","Washington","WA","Democrat",10,"Strickland, Marilyn",-0.4,0.405
+"428","S000510","House","Washington","WA","Democrat",9,"Smith, Adam",-0.285,-0.162
+"429","D000617","House","Washington","WA","Democrat",1,"Delbene, Suzan K.",-0.284,-0.213
+"430","M001180","House","West Virginia","WV","Republican",1,"Mckinley, David",0.302,0.179
+"431","M001195","House","West Virginia","WV","Republican",2,"Mooney, Alex X.",0.571,-0.252
+"432","M001205","House","West Virginia","WV","Republican",3,"Miller, Carol",0.478,0.316
+"433","M001160","House","Wisconsin","WI","Democrat",4,"Moore, Gwendolynne S. (Gwen)",-0.528,-0.253
+"434","P000607","House","Wisconsin","WI","Democrat",2,"Pocan, Mark",-0.54,-0.545
+"435","G000576","House","Wisconsin","WI","Republican",6,"Grothman, Glenn",0.603,-0.282
+"436","G000579","House","Wisconsin","WI","Republican",8,"Gallagher, Michael",0.444,-0.064
+"437","S001213","House","Wisconsin","WI","Republican",1,"Steil, Bryan",0.424,-0.032
+"438","T000165","House","Wisconsin","WI","Republican",7,"Tiffany, Thomas P.",0.633,-0.162
+"439","F000471","House","Wisconsin","WI","Republican",5,"Fitzgerald, Scott",0.623,0.446
+"440","K000188","House","Wisconsin","WI","Democrat",3,"Kind, Ron",-0.261,-0.079
+"441","C001109","House","Wyoming","WY","Republican",1,"Cheney, Liz",0.467,0.65

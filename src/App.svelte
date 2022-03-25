@@ -1,20 +1,15 @@
 <script>
-  import { onMount } from "svelte";
-  import {
-    axisBottom,
-    axisRight,
-    csv,
-    drag,
-    scaleLinear,
-    select,
-    selectAll,
-  } from "d3";
-  import SlimSelect from "slim-select";
+  import { onMount, afterUpdate } from "svelte";
+  import { csv, scaleLinear, select, selectAll } from "d3";
 
-  let senate = [];
-  let house = [];
-  let senateSelected = true;
+  import Dashboard from "./components/Dashboard.svelte";
+  import Graph from "./components/Graph.svelte";
+
+  let data = [[], []];
+  let dataIdx = 0;
   let selected = "";
+  let accuracy = 0.0;
+  let guessCount = 0;
 
   let dimensions = {
     width: 600,
@@ -33,156 +28,139 @@
     .domain([-1, 1]) //d3 extent
     .range([dimensions.marginLeft, dimensions.width - dimensions.marginRight]);
 
-  let xAxisSettings = axisBottom(x)
-    .tickValues([-1, -0.5, 0.5, 1])
-    .tickSize(5)
-    .tickPadding(5)
-    .tickSizeOuter(0);
-
-  let yAxisSettings = axisRight(y)
-    .tickValues([-1, -0.5, 0.5, 1])
-    .tickSize(5)
-    .tickPadding(5)
-    .tickSizeOuter(0);
-
   const setX = (d) => x(d.nominate_dim1);
   const setY = (d) => y(d.nominate_dim2);
   const setColor = (d) =>
     d.party == "Republican" ? "red" : d.party == "Democrat" ? "blue" : "yellow";
 
   onMount(async () => {
-    senate = await csv("./data/senate.csv");
-    house = await csv("./data/house.csv");
-    new SlimSelect({
-      select: "#slim-select",
-    });
+    data[0] = await csv("./data/senate.csv");
+    data[1] = await csv("./data/house.csv");
 
-    let svg = select("#graph");
-
-    svg
-      .append("g")
-      .call(xAxisSettings)
-      .style("font-size", "16px")
-      .attr("transform", `translate(0, ${y(0)})`);
-
-    svg
-      .append("g")
-      .call(yAxisSettings)
-      .style("font-size", "16px")
-      .attr("transform", `translate(${x(0)}, 0)`);
-
-    svg.append("g").attr("class", "senate");
-    // .selectAll(".senator")
-    // .data(senate)
-    // .join("circle")
-    // .attr("r", 12)
-    // .attr("cx", setX)
-    // .attr("cy", setY)
-    // .attr("class", "senator")
-    // .attr("fill", setColor);
-
-    svg.append("g").attr("class", "house");
-    // .selectAll(".rep")
-    // .data(house)
-    // .join("circle")
-    // .attr("r", 12)
-    // .attr("cx", setX)
-    // .attr("cy", setY)
-    // .attr("class", "rep d-none")
-    // .attr("fill", setColor);
+    selectRandom();
   });
 
-  const selectSenate = () => {
-    senateSelected = true;
-    selectAll(".senator").classed("d-none", false);
-    selectAll(".rep").classed("d-none", true);
+  afterUpdate(() => console.log(selected));
+
+  const selectRandom = () => {
+    selected =
+      data[dataIdx][Math.floor(Math.random() * data[dataIdx].length)]
+        .bioguide_id;
   };
 
-  const selectHouse = () => {
-    senateSelected = false;
-    selectAll(".senator").classed("d-none", true);
-    selectAll(".rep").classed("d-none", false);
-  };
-
-  const handleUpdate = () => {
-    let selector = senateSelected ? ".senate" : ".house";
-    let data = senateSelected ? senate : house;
-    let selectedData = data.find((d) => d.bioguide_id == selected);
+  const showAnswer = () => {
+    let guess = select(".guess");
+    guess.on(".drag", null);
+    let selector = dataIdx ? ".house-group" : ".senate-group";
+    let selectedIdx = data[dataIdx].findIndex((d) => d.bioguide_id == selected);
+    let selectedData = data[dataIdx][selectedIdx];
+    console.log(selected);
+    console.log(selectedData);
     let group = select(selector);
-    selectAll(".guess").remove();
-    group
+    selectAll(".member").style("opacity", 0.5);
+    let trueValue = group
+      .selectAll("#" + selectedData.bioguide_id)
+      .data([selectedData])
+      .enter()
       .append("circle")
-      .attr("r", "12")
-      .attr("cx", x(0))
-      .attr("cy", y(0))
-      .attr("fill", () => setColor(selectedData))
-      .attr("class", "guess")
-      .call(
-        drag()
-          .on("start", (event, d) => {
-            select(".guess").raise().attr("stroke", "black");
-          })
-          .on("drag", updateGuess)
-          .on("end", (event, d) => select(".guess").attr("stroke", null))
-      );
-  };
+      .attr("r", 12)
+      .attr("cx", setX)
+      .attr("cy", setY)
+      .attr("class", (d) => d.chamber.toLowerCase() + " member")
+      .attr("fill", setColor)
+      .on("mouseover", async (event, d) => {
+        let label = group
+          .append("g")
+          .attr("id", `label-${selectedData.bioguide_id}`)
+          .attr("transform", `translate(${setX(d)},${setY(d)})`);
 
-  const updateGuess = (event, d) => {
-    let xcord = event.x;
-    let ycord = event.y;
+        label
+          .append("rect")
+          .attr("width", 120)
+          .attr("height", 60)
+          .attr("x", 0)
+          .attr("y", 0)
+          .attr("fill", "white");
 
-    if (xcord > dimensions.width - dimensions.marginRight) {
-      xcord = dimensions.width - dimensions.marginRight;
-    } else if (xcord < dimensions.marginLeft) {
-      xcord = dimensions.marginLeft;
-    }
+        let nameArray = d.name.split(",").reverse().join(" ").split(" ");
+        let count = 1;
+        let i = 0;
 
-    if (ycord > dimensions.height - dimensions.marginBottom) {
-      ycord = dimensions.height - dimensions.marginBottom;
-    } else if (ycord < dimensions.marginTop) {
-      ycord = dimensions.marginTop;
-    }
+        while (i < nameArray.length) {
+          let frag = "";
+          while (frag.length < 12) {
+            frag += nameArray[i] + " ";
+            i++;
+          }
+          label
+            .append("text")
+            .text(frag)
+            .attr("x", 5)
+            .attr("y", 15 * count);
+          i++;
+          count++;
+        }
 
-    select(".guess").attr("cx", xcord).attr("cy", ycord);
+        label
+          .append("text")
+          .text(d.party)
+          .attr("x", 5)
+          .attr("y", 15 * count);
+        count++;
+        label
+          .append("text")
+          .text(d.state_name)
+          .attr("x", 5)
+          .attr("y", 15 * count);
+      })
+      .on("mouseout", () => {
+        select(`#label-${selectedData.bioguide_id}`).remove();
+      });
+
+    data[dataIdx] = [
+      ...data[dataIdx].slice(0, selectedIdx),
+      ...data[dataIdx].slice(selectedIdx + 1),
+    ];
+
+    guessCount++;
+    let trueX = trueValue.attr("cx");
+    let trueY = trueValue.attr("cy");
+    let diffX = Math.abs(trueX - guess.attr("cx"));
+    let diffY = Math.abs(trueY - guess.attr("cy"));
+    let scoreX =
+      1 -
+      diffX /
+        (dimensions.width - dimensions.marginLeft - dimensions.marginRight);
+
+    let scoreY =
+      1 -
+      diffY /
+        (dimensions.height - dimensions.marginBottom - dimensions.marginTop);
+    accuracy =
+      accuracy * ((guessCount - 1) / guessCount) +
+      ((scoreX + scoreY) / 2) * (1 / guessCount);
+
+    selected = "";
   };
 </script>
 
 <div class="container">
   <h1>Can Your Guess How Liberal or Conservative Your Congress Person Is?</h1>
-  <div class="dashboard">
-    <div class="buttons">
-      <button on:click={selectSenate} class={senateSelected ? "active" : ""}
-        >Senate</button
-      ><button on:click={selectHouse} class={senateSelected ? "" : "active"}
-        >House</button
-      >
-    </div>
-    <!-- svelte-ignore component-name-lowercase -->
-    <select id="slim-select" bind:value={selected} on:change={handleUpdate}>
-      {#if senateSelected}
-        {#each senate as senator}
-          <option value={senator.bioguide_id}>
-            {senator.name + " " + senator.state_abbrev + "-" + senator.party[0]}
-          </option>
-        {/each}
-      {/if}
-      {#if !senateSelected}
-        {#each house as rep}
-          <option value={rep.bioguide_id}>
-            {rep.name +
-              " " +
-              rep.state_abbrev +
-              "-" +
-              rep.district_code +
-              "-" +
-              rep.party[0]}
-          </option>
-        {/each}
-      {/if}
-    </select>
-  </div>
-  <div class="graph-container">
-    <svg id="graph" viewBox={`0,0,${dimensions.width},${dimensions.height}`} />
+  <Dashboard
+    {data}
+    {dimensions}
+    {dataIdx}
+    bind:selected
+    {accuracy}
+    {selectRandom}
+    {x}
+    {y}
+    {setColor}
+  />
+  <Graph {dimensions} {x} {y} />
+
+  <div>
+    <button class="show-answer" on:click={showAnswer}>Show Answer</button>
   </div>
 </div>
 
@@ -198,40 +176,9 @@
     }
   }
 
-  .buttons {
-    margin-bottom: 0.5rem;
-  }
-  button {
-    background-color: lightgray;
-    padding: 0.5rem 1.5rem;
+  button.show-answer {
+    border-radius: 5px;
     border: solid 2px black;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-  button:first-of-type {
-    border-radius: 5px 0 0 5px;
-    border-right: none;
-  }
-
-  button.active {
-    background-color: black;
-    color: white;
-  }
-
-  button:last-of-type {
-    border-radius: 0 5px 5px 0;
-  }
-
-  .dashboard {
-    margin-bottom: 1rem;
-  }
-  .graph-container {
-    margin: 0 -0.75rem;
-    display: flex;
-  }
-  #graph {
     width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
   }
 </style>

@@ -72,16 +72,16 @@
     let xcord = event.x;
     let ycord = event.y;
 
-    if (xcord > dimensions.width - dimensions.marginRight) {
-      xcord = dimensions.width - dimensions.marginRight;
-    } else if (xcord < dimensions.marginLeft) {
-      xcord = dimensions.marginLeft;
+    if (xcord > dimensions.width - dimensions.marginX) {
+      xcord = dimensions.width - dimensions.marginX;
+    } else if (xcord < dimensions.marginX) {
+      xcord = dimensions.marginX;
     }
 
-    if (ycord > dimensions.height - dimensions.marginBottom) {
-      ycord = dimensions.height - dimensions.marginBottom;
-    } else if (ycord < dimensions.marginTop) {
-      ycord = dimensions.marginTop;
+    if (ycord > dimensions.height - dimensions.marginY) {
+      ycord = dimensions.height - dimensions.marginY;
+    } else if (ycord < dimensions.marginY) {
+      ycord = dimensions.marginY;
     }
 
     select(".guess").attr("cx", xcord).attr("cy", ycord);
@@ -89,35 +89,39 @@
 </script>
 
 <div class="dashboard">
-  <div class="buttons">
-    <button on:click={selectSenate} class={dataIdx ? "" : "active"}
-      >Senate</button
-    ><button on:click={selectHouse} class={dataIdx ? "active" : ""}
-      >House</button
+  <div class="radio-buttons">
+    <button
+      on:click={selectSenate}
+      class={"radio-button" + (dataIdx ? "" : " active")}>Senate</button
+    ><button
+      on:click={selectHouse}
+      class={"radio-button" + (dataIdx ? " active" : "")}>House</button
     >
   </div>
-  <label for="slim-select"
-    >Select a {dataIdx ? "House " : "Senate "}Member</label
-  >
-  <!-- svelte-ignore component-name-lowercase -->
-  <select id="slim-select" bind:value={selected} on:change={handleUpdate}>
-    <option data-placeholder="true" />
-    {#each data[dataIdx] as rep}
-      <option value={rep.bioguide_id}>
-        {rep.name +
-          " " +
-          rep.state_abbrev +
-          "-" +
-          (rep.district_code ? rep.district_code + "-" : "") +
-          rep.party[0]}
-      </option>
-    {/each}
-  </select>
-  <button on:click={selectRandom}>Random</button>
-  <div>
-    <h3>
-      Overall Accuracy: {percentAccuracy.toFixed(0) + "%"}
-    </h3>
+  <div class="select-container">
+    <label for="slim-select"
+      >Select a {dataIdx ? "House " : "Senate "}Member</label
+    >
+    <!-- svelte-ignore component-name-lowercase -->
+    <select id="slim-select" bind:value={selected} on:change={handleUpdate}>
+      <option data-placeholder="true" />
+      {#each data[dataIdx] as rep}
+        <option value={rep.bioguide_id}>
+          {rep.name +
+            " " +
+            rep.state_abbrev +
+            "-" +
+            (rep.district_code ? rep.district_code + "-" : "") +
+            rep.party[0]}
+        </option>
+      {/each}
+    </select>
+  </div>
+  <div class="accuracy-container">
+    <button class="random-button" on:click={selectRandom}>Random</button>
+    <span class="accuracy">
+      Accuracy: {percentAccuracy.toFixed(0) + "%"}
+    </span>
   </div>
 </div>
 
@@ -125,27 +129,43 @@
   .dashboard {
     margin-bottom: 1rem;
   }
-  .buttons {
+  .radio-buttons {
     margin-bottom: 0.5rem;
   }
-  button {
+  .radio-button {
     background-color: lightgray;
-    padding: 0.5rem 1.5rem;
     border: solid 2px black;
-    text-transform: uppercase;
-    font-weight: bold;
   }
-  button:first-of-type {
+  .radio-button:first-of-type {
     border-radius: 5px 0 0 5px;
     border-right: none;
   }
 
-  button.active {
+  .radio-button.active {
     background-color: black;
     color: white;
   }
 
-  button:last-of-type {
+  .radio-button:last-of-type {
     border-radius: 0 5px 5px 0;
+  }
+
+  .random-button {
+    margin-right: 1rem;
+  }
+
+  .select-container {
+    margin-bottom: 0.5rem;
+  }
+
+  .accuracy-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .accuracy {
+    font-weight: bold;
+    font-size: 1.25rem;
   }
 </style>

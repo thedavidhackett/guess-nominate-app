@@ -12,21 +12,20 @@
   let guessCount = 0;
 
   let dimensions = {
-    width: 600,
-    height: 600,
-    marginTop: 10,
-    marginBottom: 10,
-    marginLeft: 10,
-    marginRight: 10,
+    width: 500,
+    height: 500,
+    marginX: 24,
+    marginY: 24,
   };
 
-  let y = scaleLinear()
-    .domain([-1, 1])
-    .range([dimensions.height - dimensions.marginTop, dimensions.marginBottom]);
+  dimensions.innerWidth = dimensions.width - 2 * dimensions.marginX;
+  dimensions.innerHeight = dimensions.height - 2 * dimensions.marginY;
+
+  let y = scaleLinear().domain([-1, 1]).range([dimensions.innerHeight, 0]);
 
   let x = scaleLinear()
     .domain([-1, 1]) //d3 extent
-    .range([dimensions.marginLeft, dimensions.width - dimensions.marginRight]);
+    .range([0, dimensions.innerWidth]);
 
   const setX = (d) => x(d.nominate_dim1);
   const setY = (d) => y(d.nominate_dim2);
@@ -39,8 +38,6 @@
 
     selectRandom();
   });
-
-  afterUpdate(() => console.log(selected));
 
   const selectRandom = () => {
     selected =
@@ -127,15 +124,9 @@
     let trueY = trueValue.attr("cy");
     let diffX = Math.abs(trueX - guess.attr("cx"));
     let diffY = Math.abs(trueY - guess.attr("cy"));
-    let scoreX =
-      1 -
-      diffX /
-        (dimensions.width - dimensions.marginLeft - dimensions.marginRight);
+    let scoreX = 1 - diffX / dimensions.innerWidth;
 
-    let scoreY =
-      1 -
-      diffY /
-        (dimensions.height - dimensions.marginBottom - dimensions.marginTop);
+    let scoreY = 1 - diffY / dimensions.innerHeight;
     accuracy =
       accuracy * ((guessCount - 1) / guessCount) +
       ((scoreX + scoreY) / 2) * (1 / guessCount);
@@ -149,7 +140,7 @@
   <Dashboard
     {data}
     {dimensions}
-    {dataIdx}
+    bind:dataIdx
     bind:selected
     {accuracy}
     {selectRandom}
@@ -159,7 +150,7 @@
   />
   <Graph {dimensions} {x} {y} />
 
-  <div>
+  <div class="show-answer-container">
     <button class="show-answer" on:click={showAnswer}>Show Answer</button>
   </div>
 </div>
@@ -170,14 +161,17 @@
     padding: 1rem;
   }
 
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 532px) {
     .container {
-      max-width: 750px;
+      max-width: 532px;
     }
   }
 
+  .show-answer-container {
+    padding: 0 1rem;
+  }
+
   button.show-answer {
-    border-radius: 5px;
     border: solid 2px black;
     width: 100%;
   }

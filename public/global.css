@@ -1,5 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@400;700&display=swap");
+
+:root {
+  --green: #77d970;
+  --blue: #2300eb;
+  --red: #eb3317;
+  --yellow: #ebcd02;
+  --gray: #eeeeee;
+}
 body {
   display: flex;
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 a {
@@ -24,12 +46,18 @@ input:disabled {
 }
 
 button {
-  border: none;
+  background-color: var(--green);
+  border: solid 1px black;
   border-radius: 5px;
+  color: white;
   font-weight: bold;
   outline: none;
   padding: 0.5rem 1.5rem;
   text-transform: uppercase;
+}
+
+button.disabled {
+  background-color: var(--gray);
 }
 
 .d-none {

@@ -7,13 +7,17 @@
   export let dataIdx;
   export let dimensions;
   export let selected;
-  export let accuracy;
+  export let overallAccuracy;
+  export let guessAccuracy;
   export let selectRandom;
   export let x;
   export let y;
   export let setColor;
+  let green = "#77d970";
+
   let selectInput;
-  $: percentAccuracy = accuracy * 100;
+  $: percentAccuracy = overallAccuracy * 100;
+  $: guessPercentAccuracy = guessAccuracy * 100;
 
   onMount(() => {
     selectInput = new SlimSelect({
@@ -55,16 +59,26 @@
         .attr("cx", x(0))
         .attr("cy", y(0))
         .attr("fill", () => setColor(selectedData))
-        .attr("stroke", "black")
+        .attr("stroke", "yellowgreen")
         .attr("stroke-width", 3)
         .attr("class", "guess")
         .call(
           drag()
             .on("start", (event, d) => {
-              select(".guess").raise();
+              let guess = select(".guess");
+              guess.raise();
+              selectAll("animate").attr("values", "0");
             })
             .on("drag", updateGuess)
-        );
+            .on("end", () => {
+              select(".guess animate").attr("values", "1;0;1");
+            })
+        )
+        .append("animate")
+        .attr("attributeName", "stroke-opacity")
+        .attr("values", "1;0;1")
+        .attr("dur", "2s")
+        .attr("repeatCount", "indefinite");
     }
   };
 
@@ -72,16 +86,16 @@
     let xcord = event.x;
     let ycord = event.y;
 
-    if (xcord > dimensions.width - dimensions.marginX) {
-      xcord = dimensions.width - dimensions.marginX;
-    } else if (xcord < dimensions.marginX) {
-      xcord = dimensions.marginX;
+    if (xcord > dimensions.innerWidth) {
+      xcord = dimensions.innerWidth;
+    } else if (xcord < 0) {
+      xcord = 0;
     }
 
-    if (ycord > dimensions.height - dimensions.marginY) {
-      ycord = dimensions.height - dimensions.marginY;
-    } else if (ycord < dimensions.marginY) {
-      ycord = dimensions.marginY;
+    if (ycord > dimensions.innerHeight) {
+      ycord = dimensions.innerHeight;
+    } else if (ycord < 0) {
+      ycord = 0;
     }
 
     select(".guess").attr("cx", xcord).attr("cy", ycord);
@@ -119,9 +133,10 @@
   </div>
   <div class="accuracy-container">
     <button class="random-button" on:click={selectRandom}>Random</button>
-    <span class="accuracy">
-      Accuracy: {percentAccuracy.toFixed(0) + "%"}
-    </span>
+    <div class="accuracy">
+      <div>Overall Accuracy: {percentAccuracy.toFixed(0) + "%"}</div>
+      <div>Last Guess: {guessPercentAccuracy.toFixed(0) + "%"}</div>
+    </div>
   </div>
 </div>
 
@@ -132,26 +147,24 @@
   .radio-buttons {
     margin-bottom: 0.5rem;
   }
-  .radio-button {
-    background-color: lightgray;
-    border: solid 2px black;
-  }
+
   .radio-button:first-of-type {
     border-radius: 5px 0 0 5px;
     border-right: none;
-  }
-
-  .radio-button.active {
-    background-color: black;
-    color: white;
   }
 
   .radio-button:last-of-type {
     border-radius: 0 5px 5px 0;
   }
 
+  .radio-button:not(.active) {
+    background-color: var(--gray);
+    color: black;
+  }
+
   .random-button {
     margin-right: 1rem;
+    height: fit-content;
   }
 
   .select-container {
@@ -167,5 +180,6 @@
   .accuracy {
     font-weight: bold;
     font-size: 1.25rem;
+    text-align: right;
   }
 </style>
